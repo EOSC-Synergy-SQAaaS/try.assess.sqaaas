@@ -15,48 +15,48 @@ sqa_criteria:
     repos:
       github.com/timofurrer/try git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-zucchini-earwig.sh
-        container: qc.acc_sickly-malachite-stoat
+        - /usr/bin/env sh .sqa/script.scaly-zucchini-goose.sh
+        container: qc.acc_grumpy-alizarin-bordeaux
   QC.Doc:
     repos:
       github.com/timofurrer/try find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-grey-bandicoot.sh
-        container: qc.doc_skanky-aquamarine-dolphin
+        - /usr/bin/env sh .sqa/script.muzzy-cerise-pig.sh
+        container: qc.doc_crappy-ochre-dog
       github.com/timofurrer/try git:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-ultramarine-axolotl.sh
-        container: qc.doc_nippy-linen-gharial
+        - /usr/bin/env sh .sqa/script.bluesy-lilac-vulture.sh
+        container: qc.doc_snappy-peach-dane
       github.com/timofurrer/try markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-chocolate-gibbon.sh
-        container: qc.doc_pokey-ultramarine-worm
+        - /usr/bin/env sh .sqa/script.smelly-khaki-liger.sh
+        container: qc.doc_ugly-taupe-indri
       github.com/timofurrer/try restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-ruby-goose.sh
-        container: qc.doc_jumpy-razzmatazz-jaguar
+        - /usr/bin/env sh .sqa/script.gloppy-olivine-gar.sh
+        container: qc.doc_lanky-malachite-tzu
   QC.Lic:
     repos:
       github.com/timofurrer/try licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-ochre-binturong.sh
-        container: qc.lic_jumpy-tangerine-stoat
+        - /usr/bin/env sh .sqa/script.messy-carmine-schnauzer.sh
+        container: qc.lic_flabby-orchid-pinscher
   QC.Sec:
     repos:
       github.com/timofurrer/try bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-ecru-moose.sh
-        container: qc.sec_bumpy-cerulean-sparrow
+        - /usr/bin/env sh .sqa/script.chummy-tangerine-rabbit.sh
+        container: qc.sec_hasty-chestnut-collie
   QC.Sty:
     repos:
       github.com/timofurrer/try flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-sapphire-wolf.sh
-        container: qc.sty_queasy-violet-newt
+        - /usr/bin/env sh .sqa/script.greasy-ruby-butterfly.sh
+        container: qc.sty_wheezy-cream-antelope
   QC.Ver:
     repos:
       github.com/timofurrer/try get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-linen-binturong.sh
-        container: qc.ver_geeky-zucchini-akita
+        - /usr/bin/env sh .sqa/script.messy-lavender-wildebeest.sh
+        container: qc.ver_freaky-persimmon-penguin
 timeout: 1800
